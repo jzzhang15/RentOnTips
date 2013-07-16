@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA28ED031795E33C00598C85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA28ED021795E33C00598C85 /* UIKit.framework */; };
+		EA28ED051795E33C00598C85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA28ED041795E33C00598C85 /* Foundation.framework */; };
+		EA28ED071795E33C00598C85 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA28ED061795E33C00598C85 /* CoreGraphics.framework */; };
+		EA28ED0D1795E33C00598C85 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA28ED0B1795E33C00598C85 /* InfoPlist.strings */; };
+		EA28ED0F1795E33C00598C85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28ED0E1795E33C00598C85 /* main.m */; };
+		EA28ED131795E33C00598C85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28ED121795E33C00598C85 /* AppDelegate.m */; };
+		EA28ED151795E33C00598C85 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EA28ED141795E33C00598C85 /* Default.png */; };
+		EA28ED171795E33C00598C85 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA28ED161795E33C00598C85 /* Default@2x.png */; };
+		EA28ED191795E33C00598C85 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA28ED181795E33C00598C85 /* Default-568h@2x.png */; };
+		EA28ED1C1795E33C00598C85 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA28ED1A1795E33C00598C85 /* MainStoryboard.storyboard */; };
+		EA28ED1F1795E33C00598C85 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28ED1E1795E33C00598C85 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA28ECFF1795E33C00598C85 /* RentOnTips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RentOnTips.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA28ED021795E33C00598C85 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EA28ED041795E33C00598C85 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA28ED061795E33C00598C85 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA28ED0A1795E33C00598C85 /* RentOnTips-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RentOnTips-Info.plist"; sourceTree = "<group>"; };
+		EA28ED0C1795E33C00598C85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA28ED0E1795E33C00598C85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA28ED101795E33C00598C85 /* RentOnTips-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RentOnTips-Prefix.pch"; sourceTree = "<group>"; };
+		EA28ED111795E33C00598C85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA28ED121795E33C00598C85 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA28ED141795E33C00598C85 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EA28ED161795E33C00598C85 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EA28ED181795E33C00598C85 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EA28ED1B1795E33C00598C85 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		EA28ED1D1795E33C00598C85 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA28ED1E1795E33C00598C85 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA28ECFC1795E33C00598C85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA28ED031795E33C00598C85 /* UIKit.framework in Frameworks */,
+				EA28ED051795E33C00598C85 /* Foundation.framework in Frameworks */,
+				EA28ED071795E33C00598C85 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA28ECF61795E33C00598C85 = {
+			isa = PBXGroup;
+			children = (
+				EA28ED081795E33C00598C85 /* RentOnTips */,
+				EA28ED011795E33C00598C85 /* Frameworks */,
+				EA28ED001795E33C00598C85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA28ED001795E33C00598C85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA28ECFF1795E33C00598C85 /* RentOnTips.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA28ED011795E33C00598C85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA28ED021795E33C00598C85 /* UIKit.framework */,
+				EA28ED041795E33C00598C85 /* Foundation.framework */,
+				EA28ED061795E33C00598C85 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA28ED081795E33C00598C85 /* RentOnTips */ = {
+			isa = PBXGroup;
+			children = (
+				EA28ED111795E33C00598C85 /* AppDelegate.h */,
+				EA28ED121795E33C00598C85 /* AppDelegate.m */,
+				EA28ED1A1795E33C00598C85 /* MainStoryboard.storyboard */,
+				EA28ED1D1795E33C00598C85 /* ViewController.h */,
+				EA28ED1E1795E33C00598C85 /* ViewController.m */,
+				EA28ED091795E33C00598C85 /* Supporting Files */,
+			);
+			path = RentOnTips;
+			sourceTree = "<group>";
+		};
+		EA28ED091795E33C00598C85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA28ED0A1795E33C00598C85 /* RentOnTips-Info.plist */,
+				EA28ED0B1795E33C00598C85 /* InfoPlist.strings */,
+				EA28ED0E1795E33C00598C85 /* main.m */,
+				EA28ED101795E33C00598C85 /* RentOnTips-Prefix.pch */,
+				EA28ED141795E33C00598C85 /* Default.png */,
+				EA28ED161795E33C00598C85 /* Default@2x.png */,
+				EA28ED181795E33C00598C85 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA28ECFE1795E33C00598C85 /* RentOnTips */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA28ED221795E33C00598C85 /* Build configuration list for PBXNativeTarget "RentOnTips" */;
+			buildPhases = (
+				EA28ECFB1795E33C00598C85 /* Sources */,
+				EA28ECFC1795E33C00598C85 /* Frameworks */,
+				EA28ECFD1795E33C00598C85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RentOnTips;
+			productName = RentOnTips;
+			productReference = EA28ECFF1795E33C00598C85 /* RentOnTips.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA28ECF71795E33C00598C85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Jingzhan Zhang";
+			};
+			buildConfigurationList = EA28ECFA1795E33C00598C85 /* Build configuration list for PBXProject "RentOnTips" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA28ECF61795E33C00598C85;
+			productRefGroup = EA28ED001795E33C00598C85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA28ECFE1795E33C00598C85 /* RentOnTips */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA28ECFD1795E33C00598C85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA28ED0D1795E33C00598C85 /* InfoPlist.strings in Resources */,
+				EA28ED151795E33C00598C85 /* Default.png in Resources */,
+				EA28ED171795E33C00598C85 /* Default@2x.png in Resources */,
+				EA28ED191795E33C00598C85 /* Default-568h@2x.png in Resources */,
+				EA28ED1C1795E33C00598C85 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA28ECFB1795E33C00598C85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA28ED0F1795E33C00598C85 /* main.m in Sources */,
+				EA28ED131795E33C00598C85 /* AppDelegate.m in Sources */,
+				EA28ED1F1795E33C00598C85 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA28ED0B1795E33C00598C85 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA28ED0C1795E33C00598C85 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EA28ED1A1795E33C00598C85 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA28ED1B1795E33C00598C85 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA28ED201795E33C00598C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA28ED211795E33C00598C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA28ED231795E33C00598C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RentOnTips/RentOnTips-Prefix.pch";
+				INFOPLIST_FILE = "RentOnTips/RentOnTips-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EA28ED241795E33C00598C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RentOnTips/RentOnTips-Prefix.pch";
+				INFOPLIST_FILE = "RentOnTips/RentOnTips-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA28ECFA1795E33C00598C85 /* Build configuration list for PBXProject "RentOnTips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA28ED201795E33C00598C85 /* Debug */,
+				EA28ED211795E33C00598C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA28ED221795E33C00598C85 /* Build configuration list for PBXNativeTarget "RentOnTips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA28ED231795E33C00598C85 /* Debug */,
+				EA28ED241795E33C00598C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA28ECF71795E33C00598C85 /* Project object */;
+}
